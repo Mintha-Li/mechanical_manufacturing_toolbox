@@ -1,16 +1,11 @@
-# mechanical_manufacturing_toolbox
+## 机械制造工艺分析工具箱
 
-A new Flutter project.
+本Repo为同济大学机械制造工艺学大作业的一个项目，目前已经实现了修配装配法的计算功能，后续功能仍在开发
 
-## Getting Started
+## 开始使用
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+可以参考以下链接，参考一般的Flutter APP开发过程：
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
