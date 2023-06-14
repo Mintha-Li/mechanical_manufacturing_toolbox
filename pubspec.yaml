@@ -1,0 +1,97 @@
+name: mechanical_manufacturing_toolbox
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  eva_icons_flutter: ^3.0.2
+  get: ^4.3.8
+  intl: ^0.17.0
+  percent_indicator: ^3.4.0
+  dotted_border: ^2.0.0+1
+  window_manager: ^0.3.2
+  cupertino_icons: ^1.0.2
+  win32:
+  cupertino_setting_control:
+  url_launcher:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  - assets/images/raster/.
+  - assets/images/raster/logo/.
+  - apps/fitting_assembly/
+
+  fonts:
+  - family: MiSans
+    fonts:
+    - asset: assets/fonts/MiSans/MiSans-Thin.ttf
+      weight: 100
+    - asset: assets/fonts/MiSans/MiSans-ExtraLight.ttf
+      weight: 200
+    - asset: assets/fonts/MiSans/MiSans-Light.ttf
+      weight: 300
+    - asset: assets/fonts/MiSans/MiSans-Regular.ttf
+      weight: 400
+    - asset: assets/fonts/MiSans/MiSans-Medium.ttf
+      weight: 500
+    - asset: assets/fonts/MiSans/MiSans-SemiBold.ttf
+      weight: 600
+    - asset: assets/fonts/MiSans/MiSans-Bold.ttf
+      weight: 700
+    - asset: assets/fonts/MiSans/MiSans-Bold.ttf
+      weight: 800
+    - asset: assets/fonts/MiSans/MiSans-Heavy.ttf
+      weight: 900
+  - family: Nunito
+    fonts:
+    - asset: assets/fonts/nunito/Nunito-ExtraLight.ttf
+      weight: 200
+    - asset: assets/fonts/nunito/Nunito-ExtraLightItalic.ttf
+      weight: 200
+      style: italic
+    - asset: assets/fonts/nunito/Nunito-Light.ttf
+      weight: 300
+    - asset: assets/fonts/nunito/Nunito-LightItalic.ttf
+      weight: 300
+      style: italic
+    - asset: assets/fonts/nunito/Nunito-Regular.ttf
+      weight: 400
+    - asset: assets/fonts/nunito/Nunito-Italic.ttf
+      weight: 400
+      style: italic
+    - asset: assets/fonts/nunito/Nunito-SemiBold.ttf
+      weight: 600
+    - asset: assets/fonts/nunito/Nunito-SemiBoldItalic.ttf
+      weight: 600
+      style: italic
+    - asset: assets/fonts/nunito/Nunito-Bold.ttf
+      weight: 700
+    - asset: assets/fonts/nunito/Nunito-BoldItalic.ttf
+      weight: 700
+      style: italic
+    - asset: assets/fonts/nunito/Nunito-ExtraBold.ttf
+      weight: 800
+    - asset: assets/fonts/nunito/Nunito-ExtraBoldItalic.ttf
+      weight: 800
+      style: italic
+    - asset: assets/fonts/nunito/Nunito-Black.ttf
+      weight: 900
+    - asset: assets/fonts/nunito/Nunito-BlackItalic.ttf
+      weight: 900
+      style: italic
