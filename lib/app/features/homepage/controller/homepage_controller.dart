@@ -83,4 +83,5 @@ class HomePageController extends GetxController {
           Get.toNamed(Routes.toleranceCalculator);
         }),
   ];
+
 }

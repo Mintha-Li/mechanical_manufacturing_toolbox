@@ -35,27 +35,7 @@ class CardTool extends StatelessWidget {
       borderRadius: BorderRadius.circular(20),
       child: Material(
         child: InkWell(
-          onTap: (data.onPressed != () {})
-          ? () {
-              showDialog(
-                context: context,
-                builder: (BuildContext context) {
-                  return AlertDialog(
-                    title: Text("提示"),
-                    content: Text("仍在开发,敬请期待……"),
-                    actions: [
-                      TextButton(
-                        child: Text("OK"),
-                        onPressed: () {
-                          Navigator.of(context).pop(); // 关闭对话框
-                        },
-                      ),
-                    ],
-                  );
-                },
-              );
-            }
-          : data.onPressed,
+          onTap: data.onPressed,
           child: Container(
             width: 250,
             height: 250,
@@ -137,27 +117,7 @@ class CardTool extends StatelessWidget {
 
   Widget _openButton(BuildContext context) {
     return ElevatedButton.icon(
-      onPressed: (data.onPressedButton != () {})
-          ? () {
-              showDialog(
-                context: context,
-                builder: (BuildContext context) {
-                  return AlertDialog(
-                    title: Text("提示"),
-                    content: Text("仍在开发,敬请期待……"),
-                    actions: [
-                      TextButton(
-                        child: Text("OK"),
-                        onPressed: () {
-                          Navigator.of(context).pop(); // 关闭对话框
-                        },
-                      ),
-                    ],
-                  );
-                },
-              );
-            }
-          : data.onPressedButton,
+      onPressed: data.onPressedButton,
       style: ElevatedButton.styleFrom(
         backgroundColor: onPrimary,
         foregroundColor: primary,
